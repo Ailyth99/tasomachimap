@@ -181,7 +181,7 @@ body{
 @media screen and (max-width: 1300px){ 
     #side{width: 90vw;} 
     #slider{display: none;} 
-	body{background: url(https://i0.hdslb.com/bfs/album/4fae8c8fbd8449a2098823d9c79298fcdad4036e.jpg) no-repeat;background-size: cover;
+	body{background: url(https://s1.ax1x.com/2022/05/04/OVYUr4.jpg) no-repeat;background-size: cover;
 	}
    .sliderM{display: block;} 
 
@@ -193,7 +193,7 @@ body{
 /*landscape*/
  @media screen and (min-width: 1300px)
 { 	
-	body{background: url(https://i0.hdslb.com/bfs/album/b04221e269a5beb2972a38773165f9e6039c2803.webp) no-repeat;background-size: cover;
+	body{background: url(https://s1.ax1x.com/2022/05/04/OVY7z8.png) no-repeat;background-size: cover;
 	}
     .sliderM{display: none;} 
     #side{display: block;} 
