@@ -205,7 +205,7 @@ function sideSwiper() {
 var shioKensakuCtrl = new L.Control.Search({
 	position: 'topleft',
 	container: 'kensaku',
-	textPlaceholder: '请输入物品名称后按回车搜索1....',
+	textPlaceholder: '请输入物品名称后按回车搜索....',
 	textErr: '未搜索到相关内容',
 	layer: shioKensaku,
 	initial: false,
@@ -225,7 +225,7 @@ function(e) {
 var futaKensakuCtrl = new L.Control.Search({
 	position: 'topleft',
 	container: 'kensaku',
-	textPlaceholder: '请输入物品名称后按回车搜索2....',
+	textPlaceholder: '请输入物品名称后按回车搜索....',
 	textErr: '未搜索到相关内容',
 	layer: futaKensaku,
 	initial: false,
@@ -243,7 +243,7 @@ function(e) {
 var genKensakuCtrl = new L.Control.Search({
 	position: 'topleft',
 	container: 'kensaku',
-	textPlaceholder: '请输入物品名称后按回车搜索3....',
+	textPlaceholder: '请输入物品名称后按回车搜索....',
 	textErr: '未搜索到相关内容',
 	layer: genKensaku,
 	initial: false,
