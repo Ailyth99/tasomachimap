@@ -262,30 +262,30 @@ function kensakuSweeper() {
 
 function sweeper(x) {
 	if (x === 'shio') {
-		shiokaze.addTo(map);
-		futago.removeFrom(map);
-		gengetsu.removeFrom(map);
+		shiokaze.addTo(map)
+		futago.removeFrom(map)
+		gengetsu.removeFrom(map)
 		for (u = 0; u < sh.length; u++) {
-			map.addLayer(sh[u]);
-			fu[u].removeFrom(map);
+			map.addLayer(sh[u])
+			fu[u].removeFrom(map)
 			ge[u].removeFrom(map)
 		}
 	} else if (x === 'futa') {
-		futago.addTo(map);
-		shiokaze.removeFrom(map);
-		gengetsu.removeFrom(map);
+		futago.addTo(map)
+		shiokaze.removeFrom(map)
+		gengetsu.removeFrom(map)
 		for (u = 0; u < fu.length; u++) {
-			map.addLayer(fu[u]);
-			sh[u].removeFrom(map);
+			map.addLayer(fu[u])
+			sh[u].removeFrom(map)
 			ge[u].removeFrom(map)
 		}
 	} else if (x === 'gen') {
-		gengetsu.addTo(map);
-		shiokaze.removeFrom(map);
-		futago.removeFrom(map);
+		gengetsu.addTo(map)
+		shiokaze.removeFrom(map)
+		futago.removeFrom(map)
 		for (u = 0; u < ge.length; u++) {
-			map.addLayer(ge[u]);
-			sh[u].removeFrom(map);
+			map.addLayer(ge[u])
+			sh[u].removeFrom(map)
 			fu[u].removeFrom(map)
 		}
 	}
